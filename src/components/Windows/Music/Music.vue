@@ -5,7 +5,8 @@
       <div class="w-full h-full overflow-x-hidden">
         <div>
           <div class="flex items-center gap-5 p-1.5">
-            <img v-if="playlist.images" src="/img/icons/music/logo_spotify.svg" :alt="$t('windows.music.playlistCoverAlt')" class="w-24" />
+            <!-- <img v-if="playlist.images" src="/img/icons/music/logo_spotify.svg" :alt="$t('windows.music.playlistCoverAlt')" class="w-24" /> -->
+            <img v-if="playlist.images" src="/img/profile-picture-2.webp" :alt="$t('windows.music.playlistCoverAlt')" class="w-24" />
             <div>
               <h2 class="text-xl font-bold">{{ playlist.name }}</h2>
               <p class="text-xs mb-1">{{ $t('windows.music.description') }}</p>
