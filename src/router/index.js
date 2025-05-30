@@ -10,28 +10,28 @@ const router = createRouter({
       name: 'home',
       component: Loader,
       meta: {
-        title: 'Portfolio | Paul Jaguin - Développeur Web',
+        title: 'Profile | TPZ-Tech Studio',
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://pauljaguin.com'
+            href: 'https://tpz-tech.online'
           },
           {
             name: 'title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             name: 'description',
             content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Trang profile của TPZ-Tech Studio"
           },
           {
             name: 'keywords',
-            content: 'portfolio, paul jaguin, développeur web, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
+            content: 'profile, TPZ-Tech Studio, game dev, web dev, mobile dev, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
           },
           {
             name: 'author',
-            content: 'Paul Jaguin'
+            content: 'TPZ-Tech Studio'
           },
           {
             name: 'robots',
@@ -51,11 +51,11 @@ const router = createRouter({
           },
           {
             name: 'apple-mobile-web-app-title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             name: 'application-name',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             name: 'twitter:card',
@@ -63,20 +63,20 @@ const router = createRouter({
           },
           {
             name: 'twitter:title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             name: 'twitter:description',
             content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Trang profile của TPZ-Tech Studio"
           },
           {
             name: 'twitter:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: 'https://tpz-tech.online/img/logo-profile-black.webp'
           },
           {
             name: 'twitter:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Profile TPZ-Tech Studio'
           },
           {
             property: 'og:type',
@@ -84,36 +84,38 @@ const router = createRouter({
           },
           {
             property: 'og:title',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             property: 'og:description',
             content:
-              "Découvrez le portfolio de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Trang profile của TPZ-Tech Studio"
           },
           {
             property: 'og:site_name',
-            content: 'Portfolio | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             property: 'og:url',
-            content: 'https://pauljaguin.com'
+            content: 'https://tpz-tech.online'
           },
           {
             property: 'og:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: 'https://tpz-tech.online/img/logo-profile-black.webp'
           },
           {
             property: 'og:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Profile TPZ-Tech Studio'
           },
           {
             property: 'og:locale',
-            content: 'fr_FR'
+			content: 'vi_VN'
+            
           },
           {
             property: 'og:locale:alternate',
-            content: 'en_US'
+			content: 'en_US'
+            
           }
         ]
       }
@@ -123,28 +125,28 @@ const router = createRouter({
       name: 'Office',
       component: Office,
       meta: {
-        title: 'Bureau | Paul Jaguin - Développeur Web',
+        title: 'Profile | TPZ-Tech Studio',
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://pauljaguin.com/office'
+            href: 'https://tpz-tech.online/office'
           },
           {
             name: 'title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             name: 'description',
             content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Trang Profile của TPZ-Tech Studio"
           },
           {
             name: 'keywords',
-            content: 'bureau, paul jaguin, développeur web, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
+            content: 'TPZ-Tech Studio, game dev, web dev, mobile dev, full stack, sites web, applications web, applications mobiles, JS, PHP, SQL, ORM, frameworks, DevOps'
           },
           {
             name: 'author',
-            content: 'Paul Jaguin'
+            content: 'TPZ-Tech Studio'
           },
           {
             name: 'robots',
@@ -164,11 +166,11 @@ const router = createRouter({
           },
           {
             name: 'apple-mobile-web-app-title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             name: 'application-name',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             name: 'twitter:card',
@@ -176,20 +178,20 @@ const router = createRouter({
           },
           {
             name: 'twitter:title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             name: 'twitter:description',
             content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Trang Profile của TPZ-Tech Studio"
           },
           {
             name: 'twitter:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: 'https://tpz-tech.online/img/logo-profile-black.webp'
           },
           {
             name: 'twitter:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Profile TPZ-Tech Studio'
           },
           {
             name: 'og:type',
@@ -197,32 +199,33 @@ const router = createRouter({
           },
           {
             name: 'og:title',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             name: 'og:description',
             content:
-              "Découvrez le bureau de Paul Jaguin, développeur web full stack passionné, Création de sites et applications web et mobiles avec JS, PHP, SQL et leurs frameworks, ainsi qu'en DevOps."
+              "Trang Profile của TPZ-Tech Studio"
           },
           {
             name: 'og:site_name',
-            content: 'Bureau | Paul Jaguin - Développeur Web'
+            content: 'Profile | TPZ-Tech Studio'
           },
           {
             name: 'og:url',
-            content: 'https://pauljaguin.com/office'
+            content: 'https://tpz-tech.online/office'
           },
           {
             name: 'og:image',
-            content: 'https://pauljaguin.com/img/logo-portfolio-black.webp'
+            content: 'https://tpz-tech.online/img/logo-profile-black.webp'
           },
           {
             name: 'og:image:alt',
-            content: 'Logo Portfolio Paul Jaguin'
+            content: 'Logo Profile TPZ-Tech Studio'
           },
           {
             name: 'og:locale',
-            content: 'fr_FR'
+			content: 'vi_VN'
+            
           },
           {
             name: 'og:locale:alternate',

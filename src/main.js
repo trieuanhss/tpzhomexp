@@ -7,7 +7,7 @@ import { createPinia } from 'pinia'
 import { createHead } from '@vueuse/head'
 import { createI18n } from 'vue-i18n'
 import en from './locales/en.json'
-import fr from './locales/fr.json'
+import vi from './locales/vi.json'
 
 import App from './App.vue'
 import router from './router'
@@ -17,25 +17,28 @@ const pinia = createPinia()
 const head = createHead()
 const i18n = createI18n({
   legacy: false,
-  locale: localStorage.getItem('currentLocale') || 'fr',
-  fallbackLocale: 'en',
+  locale: localStorage.getItem('currentLocale') || 'vi',
+  fallbackLocale: 'vi',
   messages: {
-    en,
-    fr
+    vi,
+    en
   }
 })
 
 app.use(pinia)
-app.use(router)
 app.use(head)
 app.use(i18n)
-
-if (import.meta.env.MODE === 'production') {
-  app.use(VueMatomo, {
-    host: 'https://matomo.rocketegg.systems',
-    siteId: 1
-  })
-  window._paq.push(['trackPageView'])
-}
+app.use(router)
+app.use(VueMatomo, {
+  host: 'https://tpz-tech.online',
+  siteId: 1,
+  trackerFileName: 'matomo',
+  enableLinkTracking: true,
+  requireConsent: false,
+  trackInitialView: true,
+  disableCookies: false,
+  enableHeartBeatTimer: true,
+  debug: false
+})
 
 app.mount('#app')

@@ -7,10 +7,11 @@
       },
       "projects": [
         {
-          "name": "Logma Production",
+          "name": "FS Thời Đại",
           "icon": "projects/folder-logma-icon.webp",
           "title": {
-            "en": "Logma Production - Showcase website",
+            "en": "FS Thời Đại - PC Game",
+            "vi": "FS Thời Đại - PC Game",
             "fr": "Logma Production - Site vitrine"
           },
           "date": {
@@ -22,47 +23,19 @@
           "isActive": false
         },
         {
-          "name": "Pangaia",
+          "name": "Trụ Vương Mobi",
           "icon": "projects/folder-pangaia-icon.webp",
           "title": {
-            "en": "Pangaia - Web Application",
+            "en": "Trụ Vương Mobi - Mobile Game",
+            "vi": "Trụ Vương Mobi - Mobile Game",
             "fr": "Pangaia - Application web"
           },
           "date": {
-            "en": "2023 - Current",
+            "en": "2025 - Current",
+            "vi": "2025 - Hiện tại",
             "fr": "2023 - Actuel"
           },
           "componentName": "PangaiaContent",
-          "isFocus": false,
-          "isActive": false
-        },
-        {
-          "name": "Clench",
-          "icon": "projects/folder-clench-icon.webp",
-          "title": {
-            "en": "Clench - Web Application",
-            "fr": "Clench - Application web"
-          },
-          "date": {
-            "en": "2024",
-            "fr": "2024"
-          },
-          "componentName": "ClenchContent",
-          "isFocus": false,
-          "isActive": false
-        },
-        {
-          "name": "EMC2 (ScreenUp)",
-          "icon": "projects/folder-emc2-icon.webp",
-          "title": {
-            "en": "L'EMC2 - Wordpress website (ScreenUp)",
-            "fr": "L'EMC2 - Site Wordpress (ScreenUp)"
-          },
-          "date": {
-            "en": "2024 - 1 month",
-            "fr": "2024 - 1 mois"
-          },
-          "componentName": "Emc2Content",
           "isFocus": false,
           "isActive": false
         }
@@ -78,12 +51,14 @@
           "name": "Homeserver",
           "icon": "projects/homeserver-icon.webp",
           "title": {
-            "en": "Application server & NAS",
+            "en": "Project FS Thời Đại",
+            "vi": "Project FS Thời Đại",
             "fr": "Serveur d'application & stockage NAS"
           },
           "date": {
-            "en": "2023 - Current",
-            "fr": "2023 - Actuel"
+            "en": "2025 - Current",
+            "vi": "2025 - Hiện tại",
+            "fr": "2025 - Actuel"
           },
           "componentName": "HomeserverContent",
           "isFocus": false,

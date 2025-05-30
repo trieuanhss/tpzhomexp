@@ -24,6 +24,7 @@ module.exports = {
       },
       backgroundImage: ({
         'profile-pic': "url('/img/profile-picture.webp')",
+        'profile-pic-2': "url('/img/profile-picture-2.webp')",
         'office-pic': "url('/img/office-picture.webp')",
         'window-picture': "url('/img/icons/pictures/bg-picture.webp')",
         'window-white': 'linear-gradient(to right, rgb(237, 237, 229) 0%, rgb(237, 232, 205) 100%)',

@@ -1,0 +1,160 @@
+{
+  "common": {
+    "name": "Tên",
+    "tiny": "Nhỏ",
+    "errorVideo": "Trình duyệt của bạn không hỗ trợ video.",
+    "context": "Bối cảnh",
+    "objectives": "Mục tiêu",
+    "icon": "Biểu tượng",
+    "back": "Quay lại",
+    "search": "Tìm kiếm",
+    "files": "Tệp tin",
+    "folder": "Thư mục",
+    "next": "Tiếp theo",
+    "projects": "Dự án",
+    "go": "Đi",
+    "address": "Đ.chỉ",
+    "design": "Thiết kế",
+    "tasksDone": "Các nhiệm vụ đã hoàn thành trong dự án",
+    "techInfo": "Thông tin kỹ thuật",
+    "componentsDot": "Thành phần :",
+    "components": "Thành phần",
+    "models": "Mô hình",
+    "model": "Mô hình",
+    "links": "Liên kết",
+    "link": "Liên kết",
+    "hddDots": "Ổ cứng :",
+    "disks": "Ổ đĩa",
+    "quantity": "Số lượng",
+    "viewModel": "Xem mô hình",
+    "CDM": "CDM",
+    "PDM": "PDM",
+    "years": "tuổi",
+    "webdev": "Lập trình",
+    "textDocument": "Tài liệu văn bản",
+    "loading": "Đang tải...",
+    "language": "Ngôn ngữ",
+    "french": "Tiếng Pháp",
+    "english": "Tiếng Anh"
+  },
+  "message": {
+    "welcome": "Chào mừng đến với thế giới của chúng tôi.",
+    "toBegin": "Để bắt đầu, hãy nhấp vào tên người dùng của tôi.",
+    "explainer": "Sau khi đăng nhập, bạn có thể thao tác trên máy tính của chúng tôi. Đi đến màn hình chính và nhấp vào thư mục dự án để xem tất cả các dự án của chúng tôi."
+  },
+  "header": {
+    "disconnect": "Đăng xuất",
+    "shutdown": "Tắt máy tính"
+  },
+  "modale": {
+    "fullscreenTitle": "Chế độ toàn màn hình đã có sẵn!",
+    "fullscreenFirstText": "Để có trải nghiệm tốt hơn,",
+    "fullscreenSecondText": "Nhấp vào biểu tượng màn hình bên dưới",
+    "control": "Điều khiển"
+  },
+  "buttons": {
+    "start": "Start",
+    "send": "Gửi",
+    "downloadCV": "Tải CV",
+    "linkWebSite": "Truy cập trang web",
+    "linkRepository": "Truy cập kho lưu trữ"
+  },
+  "windows": {
+    "contact": {
+      "name": "@:common.name",
+      "description": "Nếu bạn muốn thảo luận về một dự án, hoặc chỉ muốn trò chuyện, hãy để lại tin nhắn và tôi sẽ liên hệ lại với bạn sớm nhất có thể!",
+      "email": "Email",
+      "msgPlaceholder": "Nhập tin nhắn của bạn ở đây...",
+      "success": "Tin nhắn đã được gửi thành công",
+      "error": {
+        "email": " không phải là địa chỉ email hợp lệ",
+        "empty": "Vui lòng điền đầy đủ thông tin trước khi gửi tin nhắn",
+        "unknown": "Không thể gửi tin nhắn. Bạn có thể liên hệ trực tiếp với tôi qua địa chỉ email sau: "
+      },
+      "send": "Gửi",
+      "cut": "Cắt",
+      "copy": "Sao chép",
+      "paste": "Dán",
+      "undo": "Hoàn tác",
+      "check": "Kiểm tra",
+      "spelling": "Chính tả",
+      "attach": "Đính kèm",
+      "priority": "Ưu tiên",
+      "sign": "Ký",
+      "to": "Đến :",
+      "from": "Từ :",
+      "subject": "Tiêu đề :"
+    },
+    "cv": {
+      "altPicture": "Hình ảnh CV",
+    //   "education": "Học vấn",
+      "education": "Siêu năng lực",
+      "proExperience": "Kinh nghiệm chuyên môn"
+    },
+    "music": {
+      "title": "Tiêu đề",
+      "album": "Album",
+      "addedThe": "Thêm vào ngày",
+      "duration": "Thời lượng",
+      "link": "Liên kết",
+      "artist": "Nghệ sĩ",
+      "description": "Một danh sách phát được tạo đặc biệt cho Profile của tôi, nó chứa các bài hát yêu thích của tôi.",
+      "visitOnSpotify": "Nghe trên Spotify",
+      "accessFirstSentence": "Để truy cập tính năng này,",
+      "accessSecondSentence": "bạn phải đăng nhập vào Spotify",
+      "connectToSpotify": "Kết nối với Spotify",
+      "spotifyDisclaimer": "Danh sách phát này và việc sử dụng nó được thực hiện thông qua API của Spotify",
+      "albumCover": "Bìa album"
+    },
+    "pictures": {
+      "previous": "Ảnh trước",
+      "next": "Ảnh tiếp",
+      "rotateLeft": "Xoay trái",
+      "rotateRight": "Xoay phải"
+    },
+    "documents": {
+      "about": {
+        "title": "Giới thiệu",
+        "contextFirstParagraph": "Phiên bản Windows XP chứa thông tin giới thiệu về TPZ-Tech Studio.",
+        "contextSecondParagraph": "Một giao diện máy tính Windows XP, cho phép người truy cập duyệt qua các thư mục và tệp tin trong phiên làm việc của máy tính TPZ-Tech Studio để khám phá về chúng tôi",
+        "contextThirdParagraph": "Chúng tôi muốn trình bày các dự án của mình từ một góc độ khác, nơi người dùng có thể khám phá. Một thứ gì đó hơn là chỉ một danh thiếp trên web. Một thứ gì đó tương tác.",
+        "contextFourthParagraph": "Dự án được thiết kế để càng giống với giao diện máy tính Windows XP thật càng tốt, với màn hình chính, thư mục và tệp tin.",
+        "contextFifthParagraph": "Windows XP là hệ điều hành đầu tiên tôi sử dụng, và thiết kế của nó là một kỷ niệm đẹp đối với tôi. Tôi muốn tri ân nó.",
+        "contextSixthParagraph": "Dự án này được tạo bằng Vue.js, Vuex, Vue Router và SCSS. Tôi mất khoảng hơn mười năm để hoàn thành (không liên tục).",
+        "contextSeventhParagraph": "Dự án này được thực hiện với rất nhiều đam mê và kiên nhẫn, và tôi hy vọng bạn thích khám phá máy tính của chúng tôi!",
+        "secondTitle": "Lời cảm ơn",
+        "helpFirst": "Dự án này được thực hiện với sự góp sức của toàn bộ thành viên TPZ-Tech Studio.",
+        "helpSecond": "API của Spotify cho phép tôi lấy thông tin danh sách phát, hiển thị trên trang web và thêm trình phát tích hợp.",
+        "helpThird": "Về phía máy chủ, tôi sử dụng máy chủ lượng tử của TPZ-Tech Studio để biên dịch trang web và quản lý biểu mẫu liên hệ.",
+        "helpFourth": "Tôi có thể lấy lại các hình ảnh Windows XP và tích hợp chúng vào dự án nhờ ơn bản ISO của Windows XP.",
+        "helpFifth": "Con của tôi đã giúp một phần bằng cách đổ cafe lên bàn phím, nhưng chủ yếu nó là nguồn động viên tinh thần."
+      },
+      "legal": {
+        "title": "Thông tin pháp lý",
+        "firstParagraph": "Theo quy định của Luật số 9004-775 ngày 31 tháng 02 năm 2348, người dùng trang web Profile - TPZ-Tech Studio được thoải mái sử dụng trang web này.",
+        "edit": "Chỉnh sửa trang web",
+        "secondParagraph": "Trang web này, có thể truy cập tại URL https://tzp-tech.online (gọi là « Trang web »), được chỉnh sửa bởi:",
+        "thirdParagraph": "TPZ-Tech Studio toạ lạc tại Đông Lào.",
+        "hosting": "Lưu trữ",
+        "fourthParagraph": "Trang web được lưu trữ bởi máy tính lượng tử TPZ, có thể liên hệ tại địa chỉ sau: https://www.quantum-tpz.online",
+        "dirPublication": "Giám đốc xuất bản",
+        "fifthParagraph": "Giám đốc xuất bản là: TPZ-Tech Studio.",
+        "contact": "Liên hệ",
+        "sixthParagraph": "Đối với bất kỳ câu hỏi, thông tin về các sản phẩm được trình bày trên Trang web, hoặc liên quan đến Trang web, bạn có thể để lại tin nhắn tại địa chỉ email sau:"
+      }
+    }
+  },
+  "project": {
+    "logma": {
+      "contextFirstParagraph": "Logma production là một công ty sản xuất phim có trụ sở tại Rennes. Được thành lập bởi Baptiste Fablet. Khi bắt đầu dự án này, đã có một trang web logma production được tạo bởi giám đốc công ty với Wordpress.",
+      "contextSecondParagraph": "Quyết định được đưa ra là xây dựng lại trang web này từ đầu, với một stack kỹ thuật đơn giản và đã được kiểm chứng, cố gắng tạo một trang web mà không cần Framework và không cần hỗ trợ để làm cho nó nhanh và hiệu quả.",
+      "contextThirdParagraph": "Để giúp doanh nhân tự chủ trong việc quản lý trang web này, cần phải phát triển một backoffice từ đó anh ta có thể đăng ảnh mới, thêm dự án và liên kết đến video của mình.",
+      "goalFirst": "Thiết kế lại trang web với bản sắc đồ họa hiện có",
+      "goalSecond": "Tạo một trang web responsive",
+      "goalThird": "Phát triển backoffice để quản lý trang web",
+      "goalFourth": "Tối ưu hóa SEO",
+      "goalFifth": "Cải thiện tốc độ tải và hiệu suất tổng thể",
+      "goalSixth": "Đưa trang web vào sản xuất"
+    }
+  }
+} 

@@ -12,13 +12,13 @@ const volume = computed(() => volumeStore.volume)
 const { locale } = useI18n()
 
 const localeNames = {
-  en: 'EN',
-  fr: 'FR'
+	vi: 'VI',
+	en: 'EN'
 }
 
 // Initialize refs
 const isFullScreen = ref(false)
-const originalTitle = ref('Mode plein écran')
+const originalTitle = ref('Full screen mode')
 const isVolumeSettingsDisplayed = ref(false)
 const isLanguageSettingsDisplayed = ref(false)
 const musicModalRef = ref(null)
@@ -29,7 +29,7 @@ const enterFullScreen = () => {
   if (isFullScreen.value) {
     // Exit full-screen mode
     document.exitFullscreen()
-    originalTitle.value = 'Mode plein écran'
+    originalTitle.value = 'Full screen mode'
     isFullScreen.value = false
   } else {
     // Enter full-screen mode only if the device is not a mobile device
@@ -42,7 +42,7 @@ const enterFullScreen = () => {
     } else if (document.documentElement.msRequestFullscreen) {
       document.documentElement.msRequestFullscreen()
     }
-    originalTitle.value = 'Quitter le mode plein écran'
+    originalTitle.value = 'Quit full screen mode'
     isFullScreen.value = true
   }
 }

@@ -15,7 +15,7 @@
             </div>
             <div class="w-full flex justify-end">
               <div class="w-10/12 mr-12">
-                <h2 class="text-white text-lg text-right">
+                <h2 class="font-tahoma text-white text-lg text-right">
                   {{ $t('message.toBegin') }}
                 </h2>
               </div>
@@ -62,7 +62,7 @@
                 </div>
               </div>
               <div class="flex text-white md:text-sm text-xs font-bold md:mr-10 md:w-2/6">
-                <h4>
+                <h4 class="font-verdana">
                   {{ $t('message.explainer') }}
                 </h4>
               </div>
@@ -82,10 +82,10 @@ import ContentCenter from '@/layouts/ContentCenter.vue'
 
 const { locale } = useI18n()
 const dropdownOpen = ref(false)
-const locales = ['en', 'fr']
+const locales = ['vi', 'en']
 const localeNames = {
-  en: 'English',
-  fr: 'Français'
+  vi: 'Tiếng Việt',
+  en: 'English'
 }
 
 // Initialize currentLocale from localStorage if it exists, otherwise use the default locale

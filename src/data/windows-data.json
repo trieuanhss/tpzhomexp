@@ -3,10 +3,12 @@
     "id": "myProjects",
     "title": {
       "en": "My Projects",
+      "vi": "My Projects",
       "fr": "Mes projets"
     },
     "subtitle": {
       "en": "See all my projects",
+      "vi": "See all my projects",
       "fr": "Voir tous mes projets"
     },
     "imgSrc": "/img/icons/projects/projects-icon-lg.webp",
@@ -31,10 +33,12 @@
     "id": "contact",
     "title": {
       "en": "Contact me",
+      "vi": "Contact me",
       "fr": "Me contacter"
     },
     "subtitle": {
       "en": "Leave me a message",
+      "vi": "Leave me a message",
       "fr": "Laissez moi un message"
     },
     "imgSrc": "/img/icons/contact/email-icon-lg.webp",
@@ -59,10 +63,12 @@
     "id": "myCV",
     "title": {
       "en": "My CV",
+      "vi": "My CV",
       "fr": "Mon CV"
     },
     "subtitle": {
       "en": "See the curriculum vitae",
+      "vi": "See the curriculum vitae",
       "fr": "Voir le curriculum vitae"
     },
     "imgSrc": "/img/icons/cv/cv-icon-lg.webp",
@@ -87,6 +93,7 @@
     "id": "music",
     "title": {
       "en": "My Musics",
+      "vi": "My Musics",
       "fr": "Mes Musiques"
     },
     "imgSrc": "/img/icons/music/playmusic-icon-lg.webp",
@@ -111,6 +118,7 @@
     "id": "documents",
     "title": {
       "en": "My Documents",
+      "vi": "My Documents",
       "fr": "Mes documents"
     },
     "imgSrc": "/img/icons/documents/folder-docs-icon-sm.webp",
@@ -135,6 +143,7 @@
     "id": "pictures",
     "title": {
       "en": "My Pictures",
+      "vi": "My Pictures",
       "fr": "Mes Images"
     },
     "imgSrc": "/img/icons/pictures/folder-images-icon-sm.webp",
@@ -159,6 +168,7 @@
     "id": "calendar",
     "title": {
       "en": "Calendar",
+      "vi": "Calendar",
       "fr": "Calendrier"
     },
     "imgSrc": "/img/icons/calendar/calendar-icon-lg.webp",
@@ -183,6 +193,7 @@
     "id": "minesweeper",
     "title": {
       "en": "Minesweeper",
+      "vi": "Minesweeper",
       "fr": "Démineur"
     },
     "imgSrc": "/img/icons/minesweeper/minesweeper-icon-lg.webp",
@@ -207,6 +218,7 @@
     "id": "notepad",
     "title": {
       "en": "Notepad",
+      "vi": "Notepad",
       "fr": "Bloc-notes"
     },
     "imgSrc": "/img/icons/notepad/notepad-icon-lg.webp",
@@ -231,10 +243,12 @@
     "id": "doom",
     "title": {
       "en": "Doom",
+      "vi": "Doom",
       "fr": "Doom"
     },
     "subtitle": {
       "en": "Play doom thanks to js-dos",
+      "vi": "Play doom thanks to js-dos",
       "fr": "Jouer à doom grâce à js-dos"
     },
     "imgSrc": "/img/icons/doom/doom-icon-lg.webp",
@@ -259,10 +273,12 @@
     "id": "terminal",
     "title": {
       "en": "Terminal",
+      "vi": "Terminal",
       "fr": "Terminal"
     },
     "subtitle": {
       "en": "Run commands using the terminal",
+      "vi": "Run commands using the terminal",
       "fr": "Lancer des commandes avec le terminal"
     },
     "imgSrc": "/img/icons/cmd-icon-lg.webp",

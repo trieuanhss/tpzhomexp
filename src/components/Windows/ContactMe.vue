@@ -162,14 +162,14 @@ watch([userEmail, userMessage, emailSubject], ([newUserEmail, newUserMessage, ne
           <img src="/img/icons/contact/mailto-icon.webp" :alt="$t('windows.contact.to')" class="w-4 h-4" />
           <p class="font-trebuchet-pixel">{{ $t('windows.contact.to') }}</p>
 		</div>
-        <input type="text" class="w-full h-5 border border-input-blue p-1.5 text-xs outline-none placeholder:text-black" placeholder="jaguinpaul@gmail.com" readonly="readonly"/>
+        <input type="text" class="w-full h-5 border border-input-blue p-1.5 text-xs outline-none placeholder:text-black" placeholder="tpztechstudio@gmail.com" readonly="readonly"/>
       </label>
       <label class="w-full flex gap-2">
         <div class="flex gap-1 w-14 items-center cursor-default">
           <img src="/img/icons/contact/mailto-icon.webp" :alt="$t('windows.contact.from')" class="w-4 h-4" />
           <p class="font-trebuchet-pixel">{{ $t('windows.contact.from') }}</p>
         </div>
-        <input v-model="userEmail" type="email" class="w-full h-5 border border-input-blue p-1.5 text-xs outline-none font-trebuchet-pixel" placeholder="jean_doe@wanadoo.com"/>
+        <input v-model="userEmail" type="email" class="w-full h-5 border border-input-blue p-1.5 text-xs outline-none font-trebuchet-pixel" placeholder="tpztechstudio@gmail.com"/>
       </label>
       <label class="w-full flex gap-2">
         <div class="flex gap-1 w-14 items-center justify-center font-trebuchet-pixel cursor-default">

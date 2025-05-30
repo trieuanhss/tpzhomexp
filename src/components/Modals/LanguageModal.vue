@@ -4,14 +4,14 @@ import { useI18n } from 'vue-i18n'
 
 const { locale } = useI18n()
 const localeNames = {
-  en: 'English',
-  fr: 'Français'
+	vi: 'Tiếng Việt',
+	en: 'English'
 }
 
 const props = defineProps({
   currentLocale: {
     type: String,
-    default: 'fr'
+    default: 'vi'
   },
 })
 
@@ -22,11 +22,11 @@ const getFlagSrc = (locale) => {
 
 // Compute the opposite locale
 const oppositeLocale = computed(() => {
-  return props.currentLocale === 'en' ? 'fr' : 'en'
+  return props.currentLocale === 'vi' ? 'en' : 'vi'
 })
 
 const handleLanguageSwitch = () => {
-  const newLocale = props.currentLocale === 'en' ? 'fr' : 'en'
+  const newLocale = props.currentLocale === 'vi' ? 'en' : 'vi'
   localStorage.setItem('currentLocale', newLocale)
   locale.value = newLocale
   location.reload()
