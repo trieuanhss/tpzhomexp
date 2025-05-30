@@ -16,6 +16,7 @@
           },
           "date": {
             "en": "2023 - 2 months",
+            "vi": "2023 - Hiện tại",
             "fr": "2023 - 2 mois"
           },
           "componentName": "LogmaContent",
@@ -44,6 +45,7 @@
     {
       "name": {
         "en": "Servers",
+        "vi": "Servers",
         "fr": "Serveurs"
       },
       "projects": [
@@ -56,9 +58,9 @@
             "fr": "Serveur d'application & stockage NAS"
           },
           "date": {
-            "en": "2025 - Current",
-            "vi": "2025 - Hiện tại",
-            "fr": "2025 - Actuel"
+            "en": "2023 - Current",
+            "vi": "2023 - Hiện tại",
+            "fr": "2023 - Actuel"
           },
           "componentName": "HomeserverContent",
           "isFocus": false,
