@@ -3,14 +3,14 @@
   
   <!-- The Office page -->
   <url>
-    <loc>https://tpz-tech.online/office</loc>
+    <loc>https://tpz-tech.com/office</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   
   <!-- Loader page -->
   <url>
-    <loc>https://tpz-tech.online/</loc>
+    <loc>https://tpz-tech.com/</loc>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
   </url>
