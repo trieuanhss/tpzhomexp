@@ -14,7 +14,7 @@ const router = createRouter({
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://tpz-tech.online'
+            href: 'https://tpz-tech.com'
           },
           {
             name: 'title',
@@ -72,7 +72,7 @@ const router = createRouter({
           },
           {
             name: 'twitter:image',
-            content: 'https://tpz-tech.online/img/logo-profile-black.webp'
+            content: 'https://tpz-tech.com/img/logo-profile-black.webp'
           },
           {
             name: 'twitter:image:alt',
@@ -97,11 +97,11 @@ const router = createRouter({
           },
           {
             property: 'og:url',
-            content: 'https://tpz-tech.online'
+            content: 'https://tpz-tech.com'
           },
           {
             property: 'og:image',
-            content: 'https://tpz-tech.online/img/logo-profile-black.webp'
+            content: 'https://tpz-tech.com/img/logo-profile-black.webp'
           },
           {
             property: 'og:image:alt',
@@ -129,7 +129,7 @@ const router = createRouter({
         metaTags: [
           {
             rel: 'canonical',
-            href: 'https://tpz-tech.online/office'
+            href: 'https://tpz-tech.com/office'
           },
           {
             name: 'title',
@@ -187,7 +187,7 @@ const router = createRouter({
           },
           {
             name: 'twitter:image',
-            content: 'https://tpz-tech.online/img/logo-profile-black.webp'
+            content: 'https://tpz-tech.com/img/logo-profile-black.webp'
           },
           {
             name: 'twitter:image:alt',
@@ -212,11 +212,11 @@ const router = createRouter({
           },
           {
             name: 'og:url',
-            content: 'https://tpz-tech.online/office'
+            content: 'https://tpz-tech.com/office'
           },
           {
             name: 'og:image',
-            content: 'https://tpz-tech.online/img/logo-profile-black.webp'
+            content: 'https://tpz-tech.com/img/logo-profile-black.webp'
           },
           {
             name: 'og:image:alt',

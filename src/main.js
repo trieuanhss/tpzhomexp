@@ -30,7 +30,7 @@ app.use(head)
 app.use(i18n)
 app.use(router)
 app.use(VueMatomo, {
-  host: 'https://tpz-tech.online',
+  host: 'https://tpz-tech.com',
   siteId: 1,
   trackerFileName: 'matomo',
   enableLinkTracking: true,
